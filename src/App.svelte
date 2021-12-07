@@ -20,7 +20,7 @@
 					const sprite = new SpriteText(node.id);
 					sprite.material.depthWrite = false; // make sprite background transparent
 					sprite.color = node.color;
-					sprite.textHeight = 8;
+					sprite.textHeight = 'big' in node ? 17 : 8 ;
 					return sprite;
 				})
 			// .nodeCanvasObject((node, ctx, globalScale) => {
