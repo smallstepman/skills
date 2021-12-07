@@ -18,6 +18,10 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "3d-force-graph": "^1.70.5",
+    "force-graph": "^1.42.4",
+    "sirv-cli": "^1.0.0",
+    "three": "^0.135.0",
+    "three-spritetext": "^1.6.3"
   }
 }
