@@ -77,8 +77,19 @@
     {"id": "Dgraph", "group": 7},
 
     {"id": "Binance Smart Chain", "group": 8},
+    {"id": "Ethereum", "group": 8},
     {"id": "Chainlink", "group": 8},
-    {"id": "Internet Computer", "group": 8, "extra":"love"}
+    {"id": "Internet Computer", "group": 8, "extra":"love"},
+    {"id": "Brownie", "group": 8},
+    {"id": "Ganache", "group": 8},
+    {"id": "IPSF & Pinana", "group": 8},
+    {"id": "Infura", "group": 8},
+    {"id": "OpenZepplin", "group": 8},
+    {"id": "Brownie", "group": 8},
+    {"id": "Aave", "group": 8},
+    {"id": "ERC721 (NFT)", "group": 8},
+    {"id": "ERC20 (Token)", "group": 8},
+
   ],
   "links": [
 
@@ -178,6 +189,7 @@
     {"source": "Python", "target": "Matplotlib/Seaborn", "value": 1},
     {"source": "Python", "target": "Airflow", "value": 1},
     {"source": "Python", "target": "Web3.py", "value": 1},
+    {"source": "Python", "target": "Brownie", "value": 1},
     {"source": "Python", "target": "Pytest", "value": 1},
     {"source": "Python", "target": "Pydantic", "value": 1},
     {"source": "FastAPI", "target": "Pydantic", "value": 1},
@@ -186,13 +198,21 @@
     {"source": "Python", "target": "Flask", "value": 1},
     {"source": "Python", "target": "FastAPI", "value": 1},
 
-    {"source": "Web3.py", "target": "Binance Smart Chain", "value": 1},
-    {"source": "Web3.py", "target": "Chainlink", "value": 1},
+    {"source": "Solidity", "target": "Ethereum", "value": 1},
+    {"source": "Web3.py", "target": "Ethereum", "value": 1},
+    {"source": "Brownie", "target": "Ethereum", "value": 1},
+    {"source": "Ethereum", "target": "Binance Smart Chain", "value": 1},
+    {"source": "Ethereum", "target": "Chainlink", "value": 1},
+    {"source": "Ethereum", "target": "Ganache", "value": 1},
+    {"source": "Ethereum", "target": "Infura", "value": 1},
+    {"source": "Ethereum", "target": "OpenZepplin", "value": 1},
+    {"source": "Ethereum", "target": "Aave", "value": 1},
+    {"source": "Ethereum", "target": "ERC721 (NFT)", "value": 1},
+    {"source": "Ethereum", "target": "ERC20 (Token)", "value": 1},
+    {"source": "Blockchain", "target": "IPSF & Pinana", "value": 1},
     {"source": "Motoko", "target": "Internet Computer", "value": 1},
     {"source": "Rust", "target": "Internet Computer", "value": 1},
-    {"source": "Solidity", "target": "Binance Smart Chain", "value": 1},
-    {"source": "Solidity", "target": "Chainlink", "value": 1},
-
+    
     {"source": "GraphQL", "target": "Postgraphile", "value": 1},
     {"source": "GraphQL", "target": "Dgraph", "value": 1},
 
