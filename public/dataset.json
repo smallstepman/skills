@@ -33,7 +33,6 @@
     {"id": "Tokio", "group": 9},
     {"id": "Serde", "group": 9},
     {"id": "pyo3", "group": 9},
-    {"id": "WebGPU", "group": 3},
     {"id": "Nuxt", "group": 3},
     {"id": "React", "group": 3},
     {"id": "Svelte", "group": 3},
@@ -131,7 +130,6 @@
     {"source": "Rust", "target": "pyo3", "value": 1},
     {"source": "Rust", "target": "Serde", "value": 1},
     {"source": "Rust", "target": "Tokio", "value": 1},
-    {"source": "Rust", "target": "WebGPU", "value": 1},
     {"source": "pyo3", "target": "Python", "value": 1},
     {"source": "WebAssembly", "target": "JavaScript+TypeScript", "value": 1},
 
@@ -164,7 +162,6 @@
     {"source": "Frontend", "target": "Dash", "value": 1},
     {"source": "Frontend", "target": "Plotly", "value": 1},
     {"source": "Frontend", "target": "Matplotlib/Seaborn", "value": 1},
-    {"source": "Frontend", "target": "WebGPU", "value": 1},
     {"source": "JavaScript+TypeScript", "target": "Svelte", "value": 1},
     {"source": "Dart", "target": "Flutter", "value": 1},
     {"source": "Flutter", "target": "Firebase", "value": 1},
