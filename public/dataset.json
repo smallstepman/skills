@@ -31,6 +31,10 @@
 
     {"id": "Flutter", "group": 3, "extra":"love"},
     {"id": "Tokio", "group": 9},
+    {"id": "Syn", "group": 9},
+    {"id": "Quote", "group": 9},
+    {"id": "proc-macro2", "group": 9},
+
     {"id": "Serde", "group": 9},
     {"id": "Nuxt", "group": 3},
     {"id": "React", "group": 3},
@@ -139,6 +143,9 @@
     {"source": "Rust", "target": "WebAssembly", "value": 1},
     {"source": "Rust", "target": "Serde", "value": 1},
     {"source": "Rust", "target": "Tokio", "value": 1},
+    {"source": "Rust", "target": "Syn", "value": 1},
+    {"source": "Rust", "target": "Quote", "value": 1},
+    {"source": "Rust", "target": "proc-macro2", "value": 1},
     {"source": "WebAssembly", "target": "JavaScript+TypeScript", "value": 1},
 
     {"source": "DataOps", "target": "Airflow", "value": 1},
