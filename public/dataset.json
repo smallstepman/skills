@@ -52,6 +52,9 @@
     {"id": "Jupyter", "group": 2, "extra":"love"},
     {"id": "Arch", "group": 2, "extra":"love"},
     {"id": "Guix", "group": 2, "extra":"love"},
+    {"id": "UML (PlantUML)", "group": 2, "extra":"love"},
+    {"id": "GraphViz", "group": 2, "extra":"love"},
+    {"id": "Guix", "group": 2, "extra":"love"},
     {"id": "Nix", "group": 2, "extra":"love"},
     {"id": "Emacs", "group": 2, "extra":"love"},
     {"id": "Vim", "group": 2},
@@ -103,6 +106,8 @@
     {"source": "Tool", "target": "Docker", "value": 1},
     {"source": "Tool", "target": "Jupyter", "value": 1},
     {"source": "Tool", "target": "git", "value": 1},
+    {"source": "Tool", "target": "GraphViz", "value": 1},
+    {"source": "Tool", "target": "UML (PlantUML)", "value": 1},
 
     {"source": "DevOps", "target": "Azure", "value": 1},
     {"source": "DevOps", "target": "Google Cloud", "value": 1},
